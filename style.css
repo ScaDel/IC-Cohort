@@ -345,6 +345,38 @@ img {
     transform: scale(0.98);
 }
 
+
+.register-btn {
+
+    display: inline-block;
+
+    padding: 14px 32px;
+
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 50px;
+
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+
+    box-shadow: 0 4px 15px rgba(37, 117, 252, 0.4);
+
+}
+
+.register-btn:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 6px 20px rgba(37, 117, 252, 0.5);
+
+}
+
+
 .register-btn {
     width: auto;
     padding: 10px 20px;
