@@ -345,11 +345,25 @@ img {
     transform: scale(0.98);
 }
 
+.register-btn {
+    width: auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
 .gmail-btn,
 .telegram-btn,
 .whatsapp-btn {
-    width: 150px;
+    width: 200px;
     text-align: center;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 /* POPUP BACKGROUND */
