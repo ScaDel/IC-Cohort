@@ -231,6 +231,19 @@ function toggleNavMenu() {
 
 </script>
 
+<script>
+// Close menu when clicking outside
+document.addEventListener("click", function(event) {
+    const menu = document.getElementById("navMenu");
+    const menuContainer = document.querySelector(".menu-container");
+    
+    // If the click is outside the menu container, close the menu
+    if (!menuContainer.contains(event.target)) {
+        menu.style.display = "none";
+    }
+});
+</script>
+
 <footer>
     <p>© 2026 Intimus Core. All Rights Reserved.</p>
 </footer>
