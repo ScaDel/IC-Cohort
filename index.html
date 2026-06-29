@@ -22,13 +22,13 @@
 
         <div class="menu-dropdown" id="navMenu">
 
-            <a href="#poster">Poster</a>
+            <a href="#poster" onclick="closeNavMenu()">Poster</a>
 
-            <a href="#inspiration">Inspiration</a>
-
-            <a href="#content">Content</a>
-
-            <a href="#contact">Contact</a>
+			<a href="#inspiration" onclick="closeNavMenu()">Inspiration</a>
+			
+			<a href="#content" onclick="closeNavMenu()">Content</a>
+			
+			<a href="#contact" onclick="closeNavMenu()">Contact</a>
 
         </div>
 
@@ -192,6 +192,11 @@
 		
 <script>
 
+function closeNavMenu() {
+    document.getElementById("navMenu").style.display = "none";
+}
+
+	
 function openPopup() {
     document.getElementById("popup").style.display = "flex";
 }
