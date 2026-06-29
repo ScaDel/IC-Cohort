@@ -10,19 +10,6 @@ html {
 }
 
 /* NAVBAR */
-nav {
-    position: fixed;
-    width: 100%;
-    background: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    z-index: 1000;
-}
-
-/* NAVBAR */
 
 nav {
 
@@ -172,12 +159,12 @@ nav ul li a:hover {
 
 /* SECTIONS */
 .section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 80px 20px;
+    padding: 100px 20px 60px;
 }
 
 /* CONTENT BOX */
@@ -249,7 +236,7 @@ img {
 }
 
 .course{
-	font-size: 20px
+	font-size: 20px;
 }
 
 .fee-box {
@@ -482,12 +469,6 @@ img {
         transform: scale(1);
         opacity: 1;
     }
-}
-
-
-.section {
-    min-height: 100vh;
-    padding: 100px 20px 60px;
 }
 
 footer {
