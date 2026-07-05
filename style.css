@@ -195,7 +195,9 @@ nav ul li a:hover {
     }
 
     .poster img {
-        width: 95%;
+    	width: auto;
+        max-height: 90vh;
+        object-fit: contain;
     }
 
 }
